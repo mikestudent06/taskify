@@ -1,0 +1,43 @@
+// InputField.scss
+
+.input {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin: 20px;
+    transition: all 0.3s ease; // Add a smooth transition for hover effects
+  
+    &:hover {
+      transform: scale(1.05); // Scale up the form on hover
+    }
+  
+    .input-box {
+      padding: 10px;
+      border: 2px solid #ccc;
+      border-radius: 5px;
+      outline: none;
+      transition: border-color 0.3s ease; // Add a smooth border color transition
+  
+      &:focus {
+        border-color: #007bff; // Change border color on focus
+      }
+    }
+  
+    .input-submit {
+      padding: 10px 20px;
+      background-color: #007bff;
+      color: white;
+      border: none;
+      border-radius: 5px;
+      cursor: pointer;
+      outline: none;
+      transition: background-color 0.3s ease; // Add a smooth background color transition
+  
+      &:hover {
+        background-color: #0056b3; // Darker background on hover
+      }
+    }
+  }
+  
